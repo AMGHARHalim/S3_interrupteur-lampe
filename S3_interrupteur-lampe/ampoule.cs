@@ -26,7 +26,7 @@ namespace S3_interrupteur_lampe
         public void allume()
         { this.onoff = "on";
             Console.WriteLine("dans ampile - creation-" + this.nom, "-" ,+ this.watt);
-
+            Console.WriteLine("dans ampile - creation-" + this.etat, "-", +this.watt);
         }
         public void eteint()
         {
